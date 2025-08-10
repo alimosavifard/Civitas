@@ -19,3 +19,22 @@ The project prioritizes:
 
 
 
+Install from GitHub:
+<code>
+pip install git+https://github.com/alimosavifard/Civitas.git
+</code>
+
+
+Run Node or Client
+
+Run Node with built-in neurons
+<code>
+civitas --mode node --neurons 10 --id myNode
+</code>
+
+Run Client
+<code>
+civitas --mode client --id myClient
+</code>
+
+
