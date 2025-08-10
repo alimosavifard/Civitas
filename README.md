@@ -16,3 +16,20 @@ The project prioritizes:
 - Ethical AI practices  
 - Human-in-the-loop decision making  
 - Robust logging and version control of data and models  
+
+
+
+Architectural Schematic :
+
++------------------+           +-------------------+
+|    God Node      |<--------->|    Node A          |
+|  (Central API)   |  (event)  |  (Local cache)     |
++------------------+           +-------------------+
+         |                            ^
+         |                            |
+         | (event-driven updates)     | (local processing)
+         v                            |
++------------------+           +-------------------+
+|    Node B        |           |    Node C          |
+|  (Local cache)   |           |  (Local cache)     |
++------------------+           +-------------------+
