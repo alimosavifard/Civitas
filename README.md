@@ -21,6 +21,7 @@ The project prioritizes:
 
 Architectural Schematic :
 
+
 +------------------+           +-------------------+
 |    God Node      |<--------->|    Node A          |
 |  (Central API)   |  (event)  |  (Local cache)     |
